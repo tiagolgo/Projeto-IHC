@@ -6,6 +6,7 @@
 package br.com.utfpr.edu.projeto.modelo.servidor;
 
 import br.com.utfpr.edu.projeto.modelo.enumerators.Sexo;
+import java.util.List;
 
 /**
  *
@@ -14,6 +15,14 @@ import br.com.utfpr.edu.projeto.modelo.enumerators.Sexo;
 public class Servidor {
 
     private String nome, tipoSangue;
+    private int cargaHoraria;
     private Sexo sexo;
+    private Contato contato;
+    private List<Dependente> dependentes;
+    private Documentacao documentos;
+    private Endereco endereco;
+    private Filiacao filiacao;
+    private Nascimento nascimento;
+    private Cargo funcao;
 
 }
