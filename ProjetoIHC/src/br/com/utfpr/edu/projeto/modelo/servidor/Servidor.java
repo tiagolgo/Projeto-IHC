@@ -23,6 +23,6 @@ public class Servidor {
     private Endereco endereco;
     private Filiacao filiacao;
     private Nascimento nascimento;
-    private Cargo funcao;
+    private List<Cargo> cargos;
 
 }
