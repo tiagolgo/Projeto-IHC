@@ -8,6 +8,7 @@ package br.com.utfpr.edu.projeto.modelo.procedimentos;
 import br.com.utfpr.edu.projeto.modelo.estrutura.Aula;
 import br.com.utfpr.edu.projeto.modelo.servidor.Cargo;
 import br.com.utfpr.edu.projeto.modelo.servidor.Servidor;
+import br.com.utfpr.edu.projeto.modelo.utils.DataFracionada;
 import java.util.List;
 
 /**
@@ -16,9 +17,12 @@ import java.util.List;
  */
 public class Suprimento {
 
-    private String data, inicio;
+    private long id;
+    private String inicio;
     private Long inscricao;
     private Cargo cargo;
     private Servidor servidor;
     private List<Aula> aulas;
+    private DataFracionada data;
+    
 }

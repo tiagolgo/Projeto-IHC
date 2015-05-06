@@ -14,9 +14,10 @@ import br.com.utfpr.edu.projeto.modelo.servidor.Endereco;
  */
 public class Estabelecimento {
 
+    private long id;
     private String nome;
     private Long codigoInep, codigo;
-    private QuadroServidores quadroFuncional;
+    private PeriodoLetivo periodoLetivo;
     private Endereco endereco;
     private Contato contato;
 }

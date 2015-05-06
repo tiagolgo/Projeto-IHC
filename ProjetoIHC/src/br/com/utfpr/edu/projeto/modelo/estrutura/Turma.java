@@ -12,6 +12,7 @@ import java.util.List;
  * @author Cliente
  */
 public class Turma {
+    private long id;
     private int serie;
     private Seriacao seriacao;
     private Boolean status;

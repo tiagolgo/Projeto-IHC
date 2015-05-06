@@ -5,7 +5,6 @@
  */
 package br.com.utfpr.edu.projeto.modelo.servidor;
 
-import br.com.utfpr.edu.projeto.modelo.enumerators.Sexo;
 import java.util.List;
 
 /**

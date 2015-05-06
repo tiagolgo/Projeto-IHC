@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.utfpr.edu.projeto.modelo.enumerators;
+package br.com.utfpr.edu.projeto.modelo.servidor;
 
 /**
  *
  * @author Cliente
  */
-public enum LinhaFuncional {
-    LF1,LF2,LF3;
+public enum Sexo {
+    MASCULINO,FEMININO;
 }

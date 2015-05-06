@@ -5,7 +5,7 @@
  */
 package br.com.utfpr.edu.projeto.modelo.servidor;
 
-import br.com.utfpr.edu.projeto.modelo.enumerators.UnidadeFederativa;
+import br.com.utfpr.edu.projeto.modelo.utils.UnidadeFederativa;
 
 /**
  *

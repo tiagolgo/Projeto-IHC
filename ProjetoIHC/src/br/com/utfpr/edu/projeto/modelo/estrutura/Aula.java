@@ -11,6 +11,7 @@ package br.com.utfpr.edu.projeto.modelo.estrutura;
  */
 public class Aula {
 
+    private long id;
     private int cargaHoraria;
     private boolean extraordinaria, suprida;
     private Turma turma;

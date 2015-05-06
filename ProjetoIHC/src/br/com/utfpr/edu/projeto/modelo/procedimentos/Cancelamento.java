@@ -8,6 +8,7 @@ package br.com.utfpr.edu.projeto.modelo.procedimentos;
 import br.com.utfpr.edu.projeto.modelo.estrutura.Aula;
 import br.com.utfpr.edu.projeto.modelo.servidor.Cargo;
 import br.com.utfpr.edu.projeto.modelo.servidor.Servidor;
+import br.com.utfpr.edu.projeto.modelo.utils.DataFracionada;
 import java.util.List;
 
 /**
@@ -16,9 +17,11 @@ import java.util.List;
  */
 public class Cancelamento {
 
-    private String data, motivo;
+    private long id;
+    private String motivo;
     private Long inscricaoSuprimento, inscricao;
     private Servidor servidor;
     private Cargo cargo;
     private List<Aula> aulas;
+    private DataFracionada data;
 }

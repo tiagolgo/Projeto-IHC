@@ -7,6 +7,7 @@ package br.com.utfpr.edu.projeto.modelo.procedimentos;
 
 import br.com.utfpr.edu.projeto.modelo.estrutura.Aula;
 import br.com.utfpr.edu.projeto.modelo.servidor.Servidor;
+import br.com.utfpr.edu.projeto.modelo.utils.DataFracionada;
 import java.util.List;
 
 /**
@@ -15,8 +16,11 @@ import java.util.List;
  */
 public class Substituicao {
 
-    private String data, inicio, fim;
+    private long id;
+    private String inicio, fim;
     private Long numero;
     private List<Aula> aulas;
     private Servidor substituto;
+    private Afastamento afastamento;
+    private DataFracionada data;
 }

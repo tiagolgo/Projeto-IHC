@@ -13,6 +13,7 @@ import java.util.List;
  * @author Cliente
  */
 public class Curso {
+    private long id;
     private String nome;
     private Turno turno;
     private Boolean status;

@@ -13,6 +13,6 @@ import java.util.List;
  * @author Tiago Luiz Gomes
  */
 public class QuadroServidores {
-
+    private long id;
     private List<Servidor> servidores;
 }

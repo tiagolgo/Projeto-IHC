@@ -7,6 +7,7 @@ package br.com.utfpr.edu.projeto.modelo.procedimentos;
 
 import br.com.utfpr.edu.projeto.modelo.servidor.Cargo;
 import br.com.utfpr.edu.projeto.modelo.servidor.Servidor;
+import br.com.utfpr.edu.projeto.modelo.utils.DataFracionada;
 
 /**
  *
@@ -14,9 +15,11 @@ import br.com.utfpr.edu.projeto.modelo.servidor.Servidor;
  */
 public class Afastamento {
 
-    private String data, inicio, fim, motivo;
+    private long id;
+    private String inicio, fim, motivo;
     private Long numeroAto, inscricao;
     private Servidor afastado;
     private Cargo cargo;
+    private DataFracionada data;
 
 }
