@@ -7,11 +7,8 @@ package br.com.utfpr.edu.projeto.modelo.instituicao;
 
 /**
  *
- * @author Tiago Luiz Gomes
+ * @author Cliente
  */
-public class PeriodoLetivo {
-    private String ano;
-    private boolean aberto;
-    private QuadroServidores quadro;
+public class Propostas {
     
 }

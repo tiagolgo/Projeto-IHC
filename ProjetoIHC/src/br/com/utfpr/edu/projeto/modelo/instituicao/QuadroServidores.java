@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Tiago Luiz Gomes
  */
-public class QuadroFuncional {
+public class QuadroServidores {
 
     private List<Servidor> servidores;
 }

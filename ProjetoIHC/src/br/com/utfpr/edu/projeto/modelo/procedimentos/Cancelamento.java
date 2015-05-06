@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.utfpr.edu.projeto.modelo.propostas;
+package br.com.utfpr.edu.projeto.modelo.procedimentos;
 
 import br.com.utfpr.edu.projeto.modelo.estrutura.Aula;
 import br.com.utfpr.edu.projeto.modelo.servidor.Cargo;

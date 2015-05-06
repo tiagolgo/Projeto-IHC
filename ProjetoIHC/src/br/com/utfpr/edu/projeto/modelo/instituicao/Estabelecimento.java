@@ -16,7 +16,7 @@ public class Estabelecimento {
 
     private String nome;
     private Long codigoInep, codigo;
-    private QuadroFuncional quadroFuncional;
+    private QuadroServidores quadroFuncional;
     private Endereco endereco;
     private Contato contato;
 }
