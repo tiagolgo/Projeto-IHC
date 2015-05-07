@@ -5,15 +5,8 @@
  */
 package br.com.utfpr.edu.projeto.visao;
 
-import com.alee.laf.WebLookAndFeel;
 import java.util.Enumeration;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.AbstractButton;
-import javax.swing.ButtonModel;
-import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 
 /**
  *
@@ -27,6 +20,7 @@ public class ServidorCadastro extends javax.swing.JFrame {
     public ServidorCadastro() {
         initComponents();
         this.setLocationRelativeTo(null);
+       
     }
 
     /**

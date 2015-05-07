@@ -11,5 +11,7 @@ package br.com.utfpr.edu.projeto.modelo.estrutura;
  */
 public class Disciplina {
     private long id;
+    private long codigo;
     private String nome;
+    
 }

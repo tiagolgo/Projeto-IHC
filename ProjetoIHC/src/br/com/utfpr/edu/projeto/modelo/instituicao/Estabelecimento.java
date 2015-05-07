@@ -16,7 +16,7 @@ public class Estabelecimento {
 
     private long id;
     private String nome;
-    private Long codigoInep, codigo;
+    private long codigoInep, codigo;
     private PeriodoLetivo periodoLetivo;
     private Endereco endereco;
     private Contato contato;

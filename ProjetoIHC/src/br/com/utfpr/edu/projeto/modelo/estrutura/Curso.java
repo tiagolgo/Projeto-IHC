@@ -16,6 +16,6 @@ public class Curso {
     private long id;
     private String nome;
     private Turno turno;
-    private Boolean status;
+    private Boolean ativo;
     private List<Turma>turmas;
 }
